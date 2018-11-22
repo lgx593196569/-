@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Grunt插件之LiveReload 实现页面自动刷新，所见即所得编辑</title>
+<link href="css/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+<h1>欢迎大家学习JavaScript123</h1>
+<p></p>
+<p id="test"></p>
+<p>李国昕</p>
+<button class="btn1">1</button>
+<button class="btn2">2</button>
+<button class="btn3">3</button>
+
+</body>
+</html>
+<script src="js/demo.js" charset="utf-8"></script>
+<script>
+	var btn1 = document.getElementsByClassName('btn1')[0];
+	var btn2 = document.getElementsByClassName('btn2')[0];
+	var btn3 = document.getElementsByClassName('btn3')[0];
+	btn1.onclick = function(){
+		new msg(fig1);
+		btn1.disabled = true;
+		btn2.disabled = true;
+		btn3.disabled = true;
+	}
+	btn2.onclick = function(){
+		new msg(fig2);
+		btn1.disabled = true;
+		btn2.disabled = true;
+		btn3.disabled = true;
+	}
+	btn3.onclick = function(){
+		new msg(fig3);
+		btn1.disabled = true;
+		btn2.disabled = true;
+		btn3.disabled = true;
+	}
+	var fig1 = {
+		color:"red",//文字颜色
+		fs:"18px",//文字大小
+		b_Color:"1px solid red",//边框样式
+		Width:"400px",//弹框宽度
+		Height:"100px",//弹框高度
+		txt_Val:"欢迎来到超时空！",//文字内容
+		bg:"rgba(200,200,200,.8)",//弹框背景色
+		Left:"570px",//弹框左位置
+		Top:"300px",//弹框上位置
+		Stop_time:5000
+	}
+	var fig2 = {
+		color:"red",//文字颜色
+		fs:"18px",//文字大小
+		b_Color:"1px solid red",//边框样式
+		Width:"400px",//弹框宽度
+		Height:"100px",//弹框高度
+		txt_Val:"超时空！",//文字内容
+		bg:"rgba(200,200,200,.8)",//弹框背景色
+		Left:"200px",//弹框左位置
+		Top:"300px",//弹框上位置
+		Stop_time:5000
+	}
+	var fig3 = {
+		color:"red",//文字颜色
+		fs:"18px",//文字大小
+		b_Color:"1px solid red",//边框样式
+		Width:"400px",//弹框宽度
+		Height:"100px",//弹框高度
+		txt_Val:"欢迎！",//文字内容
+		bg:"rgba(200,200,200,.8)",//弹框背景色
+		Left:"370px",//弹框左位置
+		Top:"500px",//弹框上位置
+		Stop_time:5000
+	}
+	// var abc = new msg(fig);
+</script>

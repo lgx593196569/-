@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Grunt插件之LiveReload 实现页面自动刷新，所见即所得编辑</title>
+	<link href="css/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+	<h1>欢迎大家学习JavaScript123</h1>
+	<p></p>
+	<p id="test"></p>
+	<p>李国昕</p>
+	<input type="button" value="1" class="btn1">
+</body>
+</html>
+<script src="js/demo.js" charset="utf-8"></script>
+<script>
+	var btn1 = document.getElementsByClassName("btn1")[0];
+	mesgContfig = {
+		
+	}
+	//初始化
+	var message = new Message(msgConfig);
+	//使用
+	btn1.onclick = function(){
+		message.show("点击了第一个按钮");
+	}
+	// var abc = new msg(fig);
+</script>
