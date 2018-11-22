@@ -1,3 +1,4 @@
+//lgx
 var msgConfig = {
 	color:"red",
 	timeout:2000,
