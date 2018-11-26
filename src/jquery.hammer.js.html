@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hammer.js测试</title>
+	<link href="css/css.css" type="text/css" rel="stylesheet" />
+	<style>
+		#test{
+			background-color: red;
+			width:200px;
+			height:200px;
+			position: relative;
+			top: 0;
+			left: 200px;
+		}
+	</style>
+</head>
+<body>
+	<h1>欢迎大家学习JavaScript123</h1>
+	<p>所见即所得</p>
+	<p id="test">测试区域</p>
+	<input type="button" value="1" class="btn1">
+</body>
+</html>
+<script src="js/demo.js" charset="utf-8"></script>
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/hammer.js/2.0.8/hammer.min.js"></script>
+<script src="js/jquery.hammer.js"></script>
+<script>
+	var hammer = $("#test").hammer();
+	hammer.on("panstart",function(ev){
+		console.log("拖动开始");
+		console.log(ev);
+	})
+	hammer.on("panmove",function(ev){
+		console.log("拖动中");
+		console.log("x坐标"+ev.gesture.deltaX);
+		console.log("y坐标"+ev.gesture.deltaY);
+		$("#test").css("top",ev.gesture.deltaY + 'px');
+		$("#test").css("left",ev.gesture.deltaX + 'px');
+	})
+	hammer.on("panend",function(ev){
+		console.log("拖动结束");
+		console.log(ev);
+	})
+</script>

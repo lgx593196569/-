@@ -1,0 +1,35 @@
+[1122/203040:ERROR:renderer_main.cc(203)] Running without renderer sandbox
+[1122/203042:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304
+[1122/203043:INFO:CONSOLE(141)] "Uncaught SyntaxError: Unexpected token )", source: https://game.gtimg.cn/images/yxzj/cp/a20181119lixin/game.js?v=20181122212 (141)
+[1122/203043:INFO:CONSOLE(19)] "您现在正在使用互娱通用foot组件,文档请参阅:http://tgideas.qq.com/foot/", source: https://game.gtimg.cn/images/js/2018foot/foot.js (19)
+[1122/203043:INFO:CONSOLE(25)] "您正在使用PTT数据上报组件，帮助文档参阅:http://tgideas.qq.com/ptt/", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (25)
+[1122/203043:INFO:CONSOLE(2)] "pttplat=dcv_pc;
+pttsitetype=other_a20181119lixin;
+pttpagetype=index*-*wqg;
+pttpagename=首页", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (2)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_route_a20181119lixin_路径.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_actav_专题历总.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_reach_reach1_周访.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_systemInfo_windowswin10_系统信息.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_browserInfo_chrome43_浏览器信息.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_devicesize_1920x1080_设备尺寸.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_viewsize_1899x990_可视尺寸.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_netType_PCNetwork_网络类型.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_user_newUsers_新用户.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_actUser_newUsers_新用户.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_ptterror_Scripterror*-*||||||0_windowswin10|||chrome43|||PCNetwork.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203043:INFO:CONSOLE(152)] "Uncaught ReferenceError: popCommon is not defined", source: https://game.gtimg.cn/images/yxzj/cp/a20181119lixin/js/comm.js?v=201811211 (152)
+[1122/203045:INFO:CONSOLE(2)] "from local", source: https://ossweb-img.qq.com/images/clientpop/js/gpmtips.js (2)
+[1122/203048:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304
+[1122/203054:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304
+[1122/203054:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 24408064
+[1122/203054:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 24408064
+[1122/203056:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304
+[1122/203056:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 18255872
+[1122/203056:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 18255872
+[1122/203056:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 18255872
+[1122/203056:ERROR:child_discardable_shared_memory_manager.cc(266)] size: 4194304
+[1122/203058:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_pttloadpage_C_windowswin10|||chrome43|||PCNetwork.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203058:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_pttdomready_A_windowswin10|||chrome43|||PCNetwork.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203058:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_pttblank_C_windowswin10|||chrome43|||PCNetwork.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
+[1122/203318:INFO:CONSOLE(30)] "a:dcv_pc.other_a20181119lixin.index*-*wqg_newStayTime_120_停留时长.direct", source: https://ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js (30)
